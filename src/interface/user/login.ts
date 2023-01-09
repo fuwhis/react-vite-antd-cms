@@ -2,9 +2,9 @@
 export type Role = 'guest' | 'admin';
 
 export interface LoginParams {
-  /** 用户名 */
+  /** Username */
   username: string;
-  /** 用户密码 */
+  /** Password */
   password: string;
 }
 

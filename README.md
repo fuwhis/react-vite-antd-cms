@@ -1,5 +1,3 @@
-English | [简体中文](./README.zh_CN.md)
-
 <h1 align="center">React Antd Admin</h1>
 
 <div align="center">
