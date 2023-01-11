@@ -4,7 +4,7 @@ import MyButton from '@/components/basic/button';
 import { MySideOption } from '@/components/business/aside';
 import MyPage, { MyPageTableOptions } from '@/components/business/page';
 import { MyRadioCardssOption } from '@/components/business/radio-cards';
-import { BuniesssUser } from '@/interface/business';
+import { BusinessUser } from '@/interface/business';
 import { FC } from 'react';
 
 const { Item: SearchItem } = MyPage.MySearch;
@@ -39,7 +39,7 @@ const radioCardsOptions: MyRadioCardssOption[] = [
   },
 ];
 
-const tableColums: MyPageTableOptions<BuniesssUser> = [
+const tableColums: MyPageTableOptions<BusinessUser> = [
   {
     title: 'Name',
     children: [

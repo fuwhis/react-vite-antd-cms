@@ -1,4 +1,4 @@
-export interface BuniesssUser {
+export interface BusinessUser {
   key: string;
   firstName: string;
   lastName: string;

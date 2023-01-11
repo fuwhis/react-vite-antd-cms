@@ -1,5 +1,5 @@
 import { request } from './request';
 import { PageData } from '@/interface';
-import { BuniesssUser } from '@/interface/business';
+import { BusinessUser } from '@/interface/business';
 
-export const getBusinessUserList = (params: any) => request<PageData<BuniesssUser>>('get', '/business/list', params);
+export const getBusinessUserList = (params: any) => request<PageData<BusinessUser>>('get', '/business/list', params);
