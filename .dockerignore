@@ -1,3 +1,9 @@
-// .dockerignore
-node_modules
-build
+# Ignore file IDE setting 
+.vscode/
+
+# Ignore node_modules 
+node_modules/
+
+# Ignore file build
+dist/
+
