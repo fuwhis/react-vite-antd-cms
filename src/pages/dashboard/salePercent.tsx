@@ -11,6 +11,7 @@ interface Values {
   name: {
     zh_CN: string;
     en_US: string;
+    ko_KR: string;
   };
   value: number;
 }
@@ -23,27 +24,27 @@ interface Data {
 
 const data: Data = {
   all: [
-    { name: { zh_CN: '家用电器', en_US: 'appliances' }, value: 4544 },
-    { name: { zh_CN: '食用酒水', en_US: 'drinks' }, value: 3321 },
-    { name: { zh_CN: '个护健康', en_US: 'health' }, value: 3113 },
-    { name: { zh_CN: '服饰箱包', en_US: 'clothing' }, value: 2341 },
-    { name: { zh_CN: '母婴产品', en_US: 'baby' }, value: 1231 },
-    { name: { zh_CN: '其他', en_US: 'others' }, value: 132 },
+    { name: { zh_CN: '家用电器', en_US: 'appliances', ko_KR: '기구' }, value: 4566 },
+    { name: { zh_CN: '食用酒水', en_US: 'drinks', ko_KR: '음료수' }, value: 3321 },
+    { name: { zh_CN: '个护健康', en_US: 'health', ko_KR: '건강' }, value: 3113 },
+    { name: { zh_CN: '服饰箱包', en_US: 'clothing', ko_KR: '의류' }, value: 2341 },
+    { name: { zh_CN: '母婴产品', en_US: 'baby', ko_KR: '아기' }, value: 1231 },
+    { name: { zh_CN: '其他', en_US: 'others', ko_KR: '다른 사람' }, value: 132 },
   ],
   online: [
-    { name: { zh_CN: '家用电器', en_US: 'appliances' }, value: 244 },
-    { name: { zh_CN: '食用酒水', en_US: 'drinks' }, value: 231 },
-    { name: { zh_CN: '个护健康', en_US: 'health' }, value: 311 },
-    { name: { zh_CN: '服饰箱包', en_US: 'clothing' }, value: 41 },
-    { name: { zh_CN: '母婴产品', en_US: 'baby' }, value: 121 },
-    { name: { zh_CN: '其他', en_US: 'others' }, value: 111 },
+    { name: { zh_CN: '家用电器', en_US: 'appliances', ko_KR: '기구' }, value: 244 },
+    { name: { zh_CN: '食用酒水', en_US: 'drinks', ko_KR: '음료수' }, value: 231 },
+    { name: { zh_CN: '个护健康', en_US: 'health', ko_KR: '건강' }, value: 311 },
+    { name: { zh_CN: '服饰箱包', en_US: 'clothing', ko_KR: '의류' }, value: 41 },
+    { name: { zh_CN: '母婴产品', en_US: 'baby', ko_KR: '아기' }, value: 121 },
+    { name: { zh_CN: '其他', en_US: 'others', ko_KR: '다른 사람' }, value: 111 },
   ],
   offline: [
-    { name: { zh_CN: '家用电器', en_US: 'appliances' }, value: 99 },
-    { name: { zh_CN: '食用酒水', en_US: 'drinks' }, value: 188 },
-    { name: { zh_CN: '个护健康', en_US: 'health' }, value: 344 },
-    { name: { zh_CN: '服饰箱包', en_US: 'clothing' }, value: 255 },
-    { name: { zh_CN: '其他', en_US: 'others' }, value: 65 },
+    { name: { zh_CN: '家用电器', en_US: 'appliances', ko_KR: '기구' }, value: 99 },
+    { name: { zh_CN: '食用酒水', en_US: 'drinks', ko_KR: '음료수' }, value: 188 },
+    { name: { zh_CN: '个护健康', en_US: 'health', ko_KR: '건강' }, value: 344 },
+    { name: { zh_CN: '服饰箱包', en_US: 'clothing', ko_KR: '의류' }, value: 255 },
+    { name: { zh_CN: '其他', en_US: 'others', ko_KR: '다른 사람' }, value: 65 },
   ],
 };
 

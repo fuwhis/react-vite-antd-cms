@@ -126,7 +126,7 @@ const HeaderNoticeComponent: FC = () => {
     >
       <Tooltip
         title={formatMessage({
-          id: 'gloabal.tips.theme.noticeTooltip',
+          id: 'global.tips.theme.noticeTooltip',
         })}
       >
         <Badge count={noticeCount} overflowCount={999}>

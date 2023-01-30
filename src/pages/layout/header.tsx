@@ -3,10 +3,11 @@ import { LogoutOutlined, UserOutlined, MenuUnfoldOutlined, MenuFoldOutlined } fr
 import { Layout, Dropdown, Tooltip, theme as antTheme } from 'antd';
 import { useNavigate } from 'react-router-dom';
 import HeaderNoticeComponent from './notice';
-import Avator from '@/assets/header/avator.jpeg';
+import Avator from '@/assets/header/cz-chibi.png';
 import { ReactComponent as LanguageSvg } from '@/assets/header/language.svg';
 import { ReactComponent as ZhCnSvg } from '@/assets/header/zh_CN.svg';
 import { ReactComponent as EnUsSvg } from '@/assets/header/en_US.svg';
+import { ReactComponent as KoKRSvg } from '@/assets/header/ko_KR.svg';
 import { ReactComponent as MoonSvg } from '@/assets/header/moon.svg';
 import { ReactComponent as SunSvg } from '@/assets/header/sun.svg';
 import { LocaleFormatter, useLocale } from '@/locales';
@@ -73,7 +74,6 @@ const HeaderComponent: FC<HeaderProps> = ({ collapsed, toggle }) => {
       {device !== 'MOBILE' && (
         <div className="logo" style={{ width: collapsed ? 80 : 200 }}>
           <img src={ReactSvg} alt="" style={{ marginRight: collapsed ? '2px' : '20px' }} />
-          {/* <img src={AntdSvg} alt="" /> */}
         </div>
       )}
       <div className="layout-page-header-main">
@@ -83,7 +83,7 @@ const HeaderComponent: FC<HeaderProps> = ({ collapsed, toggle }) => {
         <div className="actions">
           <Tooltip
             title={formatMessage({
-              id: theme === 'dark' ? 'gloabal.tips.theme.lightTooltip' : 'gloabal.tips.theme.darkTooltip',
+              id: theme === 'dark' ? 'global.tips.theme.lightTooltip' : 'global.tips.theme.darkTooltip',
             })}
           >
             <span>
@@ -108,6 +108,12 @@ const HeaderComponent: FC<HeaderProps> = ({ collapsed, toggle }) => {
                   icon: <EnUsSvg />,
                   disabled: locale === 'en_US',
                   label: 'English',
+                },
+                {
+                  key: 'ko_KR',
+                  icon: <KoKRSvg />,
+                  disabled: locale === 'ko_KR',
+                  label: 'Korea',
                 },
               ],
             }}
@@ -148,7 +154,7 @@ const HeaderComponent: FC<HeaderProps> = ({ collapsed, toggle }) => {
             </Dropdown>
           ) : (
             <span style={{ cursor: 'pointer' }} onClick={toLogin}>
-              {formatMessage({ id: 'gloabal.tips.login' })}
+              {formatMessage({ id: 'global.tips.login' })}
             </span>
           )}
         </div>

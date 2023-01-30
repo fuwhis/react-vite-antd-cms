@@ -6,6 +6,7 @@ const roles: Role[] = [
     name: {
       zh_CN: '访客',
       en_US: 'Guest',
+      ko_KR: '방문자',
     },
     code: 'role_guest',
     id: 0,
@@ -15,6 +16,7 @@ const roles: Role[] = [
     name: {
       zh_CN: '管理员',
       en_US: 'Admin',
+      ko_KR: '관리자',
     },
     code: 'role_admin',
     id: 1,
