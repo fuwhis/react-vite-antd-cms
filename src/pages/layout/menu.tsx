@@ -66,7 +66,7 @@ const MenuComponent: FC<MenuProps> = props => {
               label: getTitle(menu),
             };
       })}
-    ></Menu>
+    />
   );
 };
 

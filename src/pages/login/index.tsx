@@ -41,14 +41,14 @@ const LoginForm: FC = () => {
             {
               required: true,
               message: formatMessage({
-                id: 'gloabal.tips.enterUsernameMessage',
+                id: 'global.tips.enterUsernameMessage',
               }),
             },
           ]}
         >
           <Input
             placeholder={formatMessage({
-              id: 'gloabal.tips.username',
+              id: 'global.tips.username',
             })}
           />
         </Form.Item>
@@ -58,7 +58,7 @@ const LoginForm: FC = () => {
             {
               required: true,
               message: formatMessage({
-                id: 'gloabal.tips.enterPasswordMessage',
+                id: 'global.tips.enterPasswordMessage',
               }),
             },
           ]}
@@ -66,18 +66,18 @@ const LoginForm: FC = () => {
           <Input
             type="password"
             placeholder={formatMessage({
-              id: 'gloabal.tips.password',
+              id: 'global.tips.password',
             })}
           />
         </Form.Item>
         <Form.Item name="remember" valuePropName="checked">
           <Checkbox>
-            <LocaleFormatter id="gloabal.tips.rememberUser" />
+            <LocaleFormatter id="global.tips.rememberUser" />
           </Checkbox>
         </Form.Item>
         <Form.Item>
           <Button htmlType="submit" type="primary" className="login-page-form_button">
-            <LocaleFormatter id="gloabal.tips.login" />
+            <LocaleFormatter id="global.tips.login" />
           </Button>
         </Form.Item>
       </Form>

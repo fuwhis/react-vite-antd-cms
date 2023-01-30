@@ -1,0 +1,17 @@
+export const koKR_dashboard = {
+  'app.dashboard.overview.totalSales': '총 매출',
+  'app.dashboard.overview.visits': '방문',
+  'app.dashboard.overview.payments': '결제',
+  'app.dashboard.overview.operationalEffect': '운영 효과',
+  'app.dashboard.overview.wowChange': 'WoW 변화',
+  'app.dashboard.overview.dodChange': 'DoD 변경',
+  'app.dashboard.overview.dailySales': '일일 판매',
+  'app.dashboard.overview.visits.dailyVisits': '일일 방문',
+  'app.dashboard.overview.conversionRate': '전환율',
+  'app.dashboard.salePercent.proportionOfSales': '판매 비율',
+  'app.dashboard.salePercent.all': '모두',
+  'app.dashboard.salePercent.online': '온라인',
+  'app.dashboard.salePercent.offline': '오프라인',
+  'app.dashboard.timeline.traffic': '교통',
+  'app.dashboard.timeline.payments': '결제',
+};

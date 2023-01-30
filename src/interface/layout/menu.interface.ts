@@ -5,15 +5,16 @@ interface MenuItem {
   label: {
     zh_CN: string;
     en_US: string;
+    ko_KR: string;
   };
-  /** 图标名称
+  /** Icon name
    *
-   * 子子菜单不需要图标
+   * Submenus don't need icons
    */
   icon?: string;
-  /** 菜单路由 */
+  /** menu routing */
   path: string;
-  /** 子菜单 */
+  /** Submenu */
   children?: MenuItem[];
 }
 

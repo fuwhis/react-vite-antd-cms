@@ -1,6 +1,6 @@
 import { FC, ReactElement } from 'react';
 import { RouteProps } from 'react-router';
-import PrivateRoute from './pravateRoute';
+import PrivateRoute from './privateRoute';
 import { useIntl } from 'react-intl';
 
 export interface WrapperRouteProps extends RouteProps {

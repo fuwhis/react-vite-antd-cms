@@ -7,7 +7,7 @@ const RoutePermissionPage: FC = () => {
   return (
     <div className="permission-page">
       <Typography className="permission-intro">
-        <LocaleFormatter id="gloabal.tips.loginResult" />
+        <LocaleFormatter id="global.tips.loginResult" />
       </Typography>
     </div>
   );

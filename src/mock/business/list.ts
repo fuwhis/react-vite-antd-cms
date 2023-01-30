@@ -1,12 +1,12 @@
-import { BuniesssUser } from '@/interface/business';
+import { BusinessUser } from '@/interface/business';
 import { mock, intercepter } from '../config';
 import qs from 'query-string';
 
-const data: BuniesssUser[] = [
+const data: BusinessUser[] = [
   {
     key: '1',
-    firstName: 'John',
-    lastName: 'Brown',
+    firstName: 'Jack',
+    lastName: 'Ma',
     age: 32,
     address: 'New York No. 1 Lake Park',
     tags: ['nice', 'developer'],

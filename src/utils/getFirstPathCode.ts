@@ -1,5 +1,5 @@
 /**
- * 获取一个字符串值在指定字符串第n次出现的位置
+ * Get the nth occurrence position of a string value in the specified string
  */
 export function getStrTimesIndex(str: string, cha: string, num: number) {
   let x = str.indexOf(cha);
