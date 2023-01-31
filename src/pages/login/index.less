@@ -4,14 +4,38 @@
   align-items: center;
   background: #f0f2f5;
   &-form {
-    width: 300px;
-    padding: 50px 40px 10px;
+    width: 500px;
+    margin-bottom: 10rem;
     border-radius: 10px;
-    h2 {
+    h1 {
+      margin-bottom: 4rem;
       text-align: center;
     }
     &_button {
+      margin-top: 4rem;
       width: 100%;
+      background-color: black;
+      color: white;
+    }
+  }
+}
+
+.ant-row.ant-form-item-row{
+  .ant-form-item-label{
+    label{
+      border-bottom: 1px solid black;
+    }
+  }
+  .ant-form-item-control:nth-child(2){
+    input#username{
+      border-bottom: 1px solid black;
+      margin-top: 1px;
+      border-radius: 1px;
+    }
+    span{
+      border-bottom: 1px solid black;
+      margin-top: 1px;
+      border-radius: 1px;
     }
   }
 }

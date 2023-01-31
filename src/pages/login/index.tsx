@@ -34,9 +34,10 @@ const LoginForm: FC = () => {
   return (
     <div className="login-page">
       <Form<LoginParams> onFinish={onFinished} className="login-page-form" initialValues={initialValues}>
-        <h2>REACT ANTD ADMIN</h2>
+        <h1>슈럽</h1>
         <Form.Item
           name="username"
+          label="아이디"
           rules={[
             {
               required: true,
@@ -47,6 +48,7 @@ const LoginForm: FC = () => {
           ]}
         >
           <Input
+            bordered={false}
             placeholder={formatMessage({
               id: 'global.tips.username',
             })}
@@ -54,6 +56,7 @@ const LoginForm: FC = () => {
         </Form.Item>
         <Form.Item
           name="password"
+          label="비밀번호"
           rules={[
             {
               required: true,
@@ -63,23 +66,17 @@ const LoginForm: FC = () => {
             },
           ]}
         >
-          <Input
+          <Input.Password
+            bordered={false}
             type="password"
             placeholder={formatMessage({
               id: 'global.tips.password',
             })}
           />
         </Form.Item>
-        <Form.Item name="remember" valuePropName="checked">
-          <Checkbox>
-            <LocaleFormatter id="global.tips.rememberUser" />
-          </Checkbox>
-        </Form.Item>
-        <Form.Item>
-          <Button htmlType="submit" type="primary" className="login-page-form_button">
-            <LocaleFormatter id="global.tips.login" />
-          </Button>
-        </Form.Item>
+        <Button htmlType="submit" className="login-page-form_button">
+          로그인
+        </Button>
       </Form>
     </div>
   );
