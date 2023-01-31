@@ -4,7 +4,7 @@
   align-items: center;
   background: #f0f2f5;
   &-form {
-    width: 500px;
+    width: 470px;
     margin-bottom: 10rem;
     border-radius: 10px;
     h1 {
@@ -12,32 +12,35 @@
       text-align: center;
     }
     &_button {
-      margin-top: 4rem;
+      margin-top: 2rem;
       width: 100%;
       background-color: black;
       color: white;
     }
-  }
-
-  .ant-row.ant-form-item-row{
-    .ant-form-item-label{
-      label{
-        border-bottom: 1px solid black;
-      }
+    &_input {
+      // width: 100%;
+      // .ant-row.ant-form-item-row {
+      //   .ant-form-item-label {
+      //     label {
+      //       border-bottom: 1px solid black;
+      //     }
+      //   }
+      //   .ant-form-item-control:nth-child(2) {
+      //     input#email {
+      //       border-bottom: 1px solid black;
+      //       margin-top: 1px;
+      //       border-radius: 1px;
+      //     }
+      //     span {
+      //       border-bottom: 1px solid black;
+      //       margin-top: 1px;
+      //       border-radius: 1px;
+      //     }
+      //   }
+      // }
     }
-    .ant-form-item-control:nth-child(2){
-      input#username{
-        border-bottom: 1px solid black;
-        margin-top: 1px;
-        border-radius: 1px;
-      }
-      span{
-        border-bottom: 1px solid black;
-        margin-top: 1px;
-        border-radius: 1px;
-      }
+    &_validator {
+      color: red;
     }
   }
 }
-
-

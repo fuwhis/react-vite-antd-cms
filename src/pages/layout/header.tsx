@@ -11,7 +11,6 @@ import { ReactComponent as MoonSvg } from '@/assets/header/moon.svg';
 import { ReactComponent as SunSvg } from '@/assets/header/sun.svg';
 import { LocaleFormatter, useLocale } from '@/locales';
 import ReactSvg from '@/assets/logo/react.svg';
-// import AntdSvg from '@/assets/logo/antd.svg';
 import { logoutAsync, setUserItem } from '@/stores/user.store';
 import { useDispatch, useSelector } from 'react-redux';
 import { setGlobalState } from '@/stores/global.store';

@@ -4,7 +4,7 @@ export const enUS_globalTips = {
   'global.tips.loginResult': 'When you see this page, it means you are logged in.',
   'global.tips.goToLogin': 'Go To Login',
   'global.tips.username': 'Username',
-  'global.tips.enterUsernameMessage': 'Please enter your Email!',
+  'global.tips.enterEmailMessage': 'Please enter your Email!',
   'global.tips.password': 'Password',
   'global.tips.enterPasswordMessage': 'Please enter your Password!',
   'global.tips.rememberUser': 'Remember user',

@@ -4,7 +4,7 @@ import './index.less';
 import MenuComponent from './menu';
 import HeaderComponent from './header';
 import { getGlobalState } from '@/utils/getGloabal';
-import TagsView from './tagView';
+// import TagsView from './tagView';
 import { getMenuList } from '@/api/layout.api';
 import { MenuList, MenuChild } from '@/interface/layout/menu.interface';
 import { useGuide } from '../guide/useGuide';
