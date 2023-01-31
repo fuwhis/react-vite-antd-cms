@@ -5,7 +5,6 @@ import { useNavigate } from 'react-router-dom';
 import HeaderNoticeComponent from './notice';
 import Avator from '@/assets/header/cz-chibi.png';
 import { ReactComponent as LanguageSvg } from '@/assets/header/language.svg';
-import { ReactComponent as ZhCnSvg } from '@/assets/header/zh_CN.svg';
 import { ReactComponent as EnUsSvg } from '@/assets/header/en_US.svg';
 import { ReactComponent as KoKRSvg } from '@/assets/header/ko_KR.svg';
 import { ReactComponent as MoonSvg } from '@/assets/header/moon.svg';
@@ -97,12 +96,6 @@ const HeaderComponent: FC<HeaderProps> = ({ collapsed, toggle }) => {
             menu={{
               onClick: info => selectLocale(info),
               items: [
-                {
-                  key: 'zh_CN',
-                  icon: <ZhCnSvg />,
-                  disabled: locale === 'zh_CN',
-                  label: '简体中文',
-                },
                 {
                   key: 'en_US',
                   icon: <EnUsSvg />,
