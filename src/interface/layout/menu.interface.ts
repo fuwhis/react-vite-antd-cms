@@ -3,7 +3,6 @@ interface MenuItem {
   code: string;
   /** menu labels */
   label: {
-    zh_CN: string;
     en_US: string;
     ko_KR: string;
   };

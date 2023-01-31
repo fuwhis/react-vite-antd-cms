@@ -1,11 +1,9 @@
 import { FC } from 'react';
 import en_US from './en-US';
-import zh_CN from './zh-CN';
 import ko_KR from './ko-KR';
 import { FormattedMessage, MessageDescriptor, useIntl } from 'react-intl';
 
 export const localeConfig = {
-  zh_CN: zh_CN,
   en_US: en_US,
   ko_KR: ko_KR,
 };

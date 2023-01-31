@@ -3,7 +3,6 @@ import { IntlProvider } from 'react-intl';
 import { localeConfig, LocaleFormatter } from './locales';
 import { ConfigProvider, Spin, theme as a } from 'antd';
 import enUS from 'antd/es/locale/en_US';
-import zhCN from 'antd/es/locale/zh_CN';
 import koKR from 'antd/es/locale/ko_KR';
 import dayjs from 'dayjs';
 import 'dayjs/locale/zh-cn';
@@ -45,8 +44,6 @@ const App: React.FC = () => {
   useEffect(() => {
     if (locale === 'en_US') {
       dayjs.locale('en');
-    } else if (locale === 'zh_CN') {
-      dayjs.locale('zh-cn');
     } else if (locale === 'ko_KR') {
       dayjs.locale('ko_KR');
     }
@@ -60,8 +57,6 @@ const App: React.FC = () => {
   const getLocale = () => {
     if (locale === 'en_US') {
       return enUS;
-    } else if (locale === 'zh_CN') {
-      return zhCN;
     } else if (locale === 'ko_KR') {
       return koKR;
     }

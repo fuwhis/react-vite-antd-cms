@@ -2,7 +2,6 @@ export type TagItem = {
   code: string;
 
   label: {
-    zh_CN: string;
     en_US: string;
     ko_KR: string;
   };

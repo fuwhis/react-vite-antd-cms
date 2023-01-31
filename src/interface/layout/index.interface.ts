@@ -1,7 +1,9 @@
 /** user's device */
 enum DeviceList {
-  /** telephone */
+  /** mobile */
   MOBILE = 'MOBILE',
+  /** tablet */
+  TABLET = 'TABLET',
   /** computer */
   DESKTOP = 'DESKTOP',
 }
